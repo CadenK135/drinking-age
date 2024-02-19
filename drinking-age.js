@@ -3,6 +3,13 @@
 function checkDrinkingAge(age) {
   // TODO: Implement this function.
   const result = undefined;
+  const DrinkingAge = 21 
+  if (DrinkingAge<=age) {
+    return true;
+  }
+  else {
+    return false;
+  }
   return result;
 }
 
